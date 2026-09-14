@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI 취업 코치 - 분석</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main class="container">
+    <h1>AI 취업 코치</h1>
+
+    <!-- 1. 입력부 -->
+    <section class="input-area">
+      <label for="jobPosting">채용공고</label>
+      <textarea id="jobPosting" rows="6" placeholder="채용공고 내용을 붙여넣으세요"></textarea>
+
+      <label for="careerSummary">경력 요약</label>
+      <textarea id="careerSummary" rows="6" placeholder="본인의 경력을 요약해 주세요"></textarea>
+
+      <p class="notice">⚠️ 주민번호·연락처 등 개인정보는 입력하지 마세요.</p>
+
+      <!-- 2. 버튼 -->
+      <button id="analyzeBtn">분석하기</button>
+    </section>
+
+    <!-- 3. 상태 표시 (평소엔 숨김) -->
+    <section id="statusArea" class="status-area" hidden>
+      <p id="statusMessage"></p>
+    </section>
+
+    <!-- 4. 결과부 (평소엔 숨김) -->
+    <section id="resultArea" class="result-area" hidden>
+      <div class="result-block">
+        <h2>💪 강점</h2>
+        <ul id="strengthsList"></ul>
+      </div>
+      <div class="result-block">
+        <h2>🔍 부족한 점</h2>
+        <ul id="gapsList"></ul>
+      </div>
+      <div class="result-block">
+        <h2>✅ 다음 행동</h2>
+        <ul id="nextActionsList"></ul>
+      </div>
+      <div class="result-block">
+        <h2>📎 근거</h2>
+        <ul id="evidenceList"></ul>
+      </div>
+    </section>
+        <!-- 5. AI 채팅 상담 -->
+    <section class="chat-area">
+      <h2>💬 AI 취업 상담</h2>
+
+      <!-- 대화 내용이 쌓이는 곳 -->
+      <div id="chatMessages" class="chat-messages">
+        <div class="chat-bot">🤖 무엇이든 물어보세요! (면접, 이력서, 직무 등)</div>
+      </div>
+
+      <!-- 입력창 + 전송 버튼 -->
+      <div class="chat-input-box">
+        <input type="text" id="chatInput" placeholder="질문을 입력하세요..." />
+        <button id="chatSendBtn">전송</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+/* 기본 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "맑은 고딕", sans-serif;
+  background-color: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* 전체 가운데 정렬 컨테이너 */
+.container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+  text-align: center;
+  color: #2c6ecb;
+  margin-bottom: 24px;
+}
+
+/* 입력부 */
+.input-area label {
+  display: block;
+  font-weight: bold;
+  margin: 16px 0 6px;
+}
+
+.input-area textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.notice {
+  color: #c0392b;
+  font-size: 13px;
+  margin: 12px 0;
+}
+
+/* 버튼 */
+#analyzeBtn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2c6ecb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+#analyzeBtn:hover {
+  background-color: #1f5aad;
+}
+
+/* 상태 표시 */
+.status-area {
+  margin-top: 20px;
+  padding: 14px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #eef3fb;
+}
+
+/* 결과부 */
+.result-area {
+  margin-top: 24px;
+}
+
+.result-block {
+  margin-bottom: 20px;
+  padding: 16px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.result-block h2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #2c6ecb;
+}
+
+.result-block ul {
+  padding-left: 20px;
+}
+
+.result-block li {
+  margin-bottom: 6px;
+}
+
+
+/* 채팅 상담 영역 */
+.chat-area {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.chat-area h2 {
+  font-size: 18px;
+  color: #2c6ecb;
+  margin-bottom: 16px;
+}
+
+/* 대화 내용 박스 */
+.chat-messages {
+  height: 300px;
+  overflow-y: auto;          /* 넘치면 스크롤 */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #fafafa;
+  margin-bottom: 12px;
+}
+
+/* AI 답변 (왼쪽) */
+.chat-bot {
+  background-color: #eef3fb;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  white-space: pre-line;   /* ← 이 줄 추가! \n 줄바꿈 적용 */
+}
+
+/* 사용자 질문 (오른쪽) */
+.chat-user {
+  background-color: #2c6ecb;
+  color: #fff;
+  padding: 10px 14px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+  margin-left: auto;         /* 오른쪽 정렬 */
+  text-align: right;
+}
+
+/* 사용한 도구 표시 */
+.chat-tool {
+  font-size: 12px;
+  color: #888;
+  margin-top: 4px;
+}
+
+/* 입력창 + 버튼 */
+.chat-input-box {
+  display: flex;
+  gap: 8px;
+}
+
+#chatInput {
+  flex: 1;                   /* 남은 공간 다 차지 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+#chatSendBtn {
+  padding: 10px 20px;
+  background-color: #2c6ecb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#chatSendBtn:hover {
+  background-color: #1f5aad;
+}

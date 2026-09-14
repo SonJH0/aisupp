@@ -1,0 +1,17 @@
+[
+  {
+    "title": "백엔드 개발자",
+    "keywords": ["Python", "FastAPI", "API", "데이터베이스", "서버"],
+    "description": "서버와 API를 개발하고 데이터를 관리하는 직무"
+  },
+  {
+    "title": "프론트엔드 개발자",
+    "keywords": ["HTML", "CSS", "JavaScript", "React", "UI"],
+    "description": "사용자 화면과 인터페이스를 개발하는 직무"
+  },
+  {
+    "title": "데이터 분석가",
+    "keywords": ["Python", "SQL", "통계", "시각화", "데이터"],
+    "description": "데이터를 분석하고 인사이트를 도출하는 직무"
+  }
+]

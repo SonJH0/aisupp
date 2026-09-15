@@ -27,7 +27,7 @@ analyzeBtn.addEventListener("click", async () => {
 
   try {
     // 2-3. 백엔드 API 호출 (실제 서버!)
-    const response = await fetch("http://127.0.0.1:8000/recommend", {
+    const response = await fetch("https://aisupp.onrender.com/recommend", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -105,7 +105,7 @@ async function sendChat() {
 
   try {
     // 4-4. 백엔드 /chat 호출
-    const response = await fetch("http://127.0.0.1:8000/chat", {
+    const response = await fetch("https://aisupp.onrender.com/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

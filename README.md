@@ -4,7 +4,6 @@
 
 [![Frontend](https://img.shields.io/badge/Frontend-Vercel-black)](https://aisupp.vercel.app)
 [![Backend](https://img.shields.io/badge/Backend-Render-purple)](https://aisupp.onrender.com)
-[![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 🔗 **서비스 바로가기:** [https://aisupp.vercel.app](https://aisupp.vercel.app)
 

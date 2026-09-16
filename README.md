@@ -86,7 +86,8 @@ cd frontend
 # index.html 파일을 브라우저로 열기
 # 또는 Live Server 사용
 ```
-→ 백엔드, 프론트엔드 접속: `http://localhost:5500`
+→ 백엔드(Render) : https://dashboard.render.com/web/srv-dak9ir8u01pc73eb3jvg
+→ 프론트엔드(vercel) : https://vercel.com/son-jh/aisupp
 
 ---
 

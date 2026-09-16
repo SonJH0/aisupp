@@ -3,6 +3,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from rag import recommend_job      # ⭐ RAG 추천 함수
 from agent import run_agent        # ⭐ Agent 함수
+from datetime import datetime
+
+@app.get("/health")
+async def health_check():
+    return {
+        "status": "healthy",
+        "timestamp": datetime.now().isoformat(),
+        "service": "AI Career Coach"
+    }
 
 app = FastAPI()
 

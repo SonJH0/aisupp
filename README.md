@@ -200,10 +200,10 @@ cd frontend
 ###  1. 배포 상태 증빙
 
 vercel
-```
+
 <img width="1877" height="922" alt="image" src="https://github.com/user-attachments/assets/14452ae4-f041-44c7-816b-7e59ca984383" />
 
-```
+
 ```
 Status: Ready ●  (초록불)
 URL: aisupp.vercel.app
@@ -211,10 +211,10 @@ Source: main (63a0e20)
 ```
 
 render
-```
+
 <img width="1856" height="911" alt="image" src="https://github.com/user-attachments/assets/731e70ee-9270-4d8c-97a6-5a9264334e0d" />
 
-```
+
 ```
 Status: Live ●
 URL: aisupp.onrender.com
@@ -256,7 +256,8 @@ $ curl -X POST https://aisupp.onrender.com/chat \
 ```
 
 스크린샷
-```
+
+
 <img width="1240" height="788" alt="image" src="https://github.com/user-attachments/assets/246c07b3-ecd1-4eed-8667-bb046506d35f" />
 
 <img width="1246" height="802" alt="image" src="https://github.com/user-attachments/assets/63977981-3927-4b8c-947f-225b7468e228" />
@@ -272,7 +273,7 @@ $ curl -X POST https://aisupp.onrender.com/chat \
 
 
 
-```
+
 
 ### 3. 성능 지표
 

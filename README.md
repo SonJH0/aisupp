@@ -87,7 +87,16 @@ cd frontend
 # 또는 Live Server 사용
 ```
 → 백엔드(Render) : https://dashboard.render.com/web/srv-dak9ir8u01pc73eb3jvg
+
+<img width="1877" height="933" alt="image" src="https://github.com/user-attachments/assets/e35250a2-45d4-462a-86d0-80f5a96d8fd4" />
+
+<img width="1896" height="930" alt="image" src="https://github.com/user-attachments/assets/ee8a95bd-335b-4ebb-a84e-b42649145fc3" />
+
+
 → 프론트엔드(vercel) : https://vercel.com/son-jh/aisupp
+
+<img width="1884" height="943" alt="image" src="https://github.com/user-attachments/assets/3d7ee87a-a531-4bae-9aa6-854b668fba3d" />
+
 
 ---
 

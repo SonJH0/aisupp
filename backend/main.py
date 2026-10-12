@@ -4,6 +4,7 @@ from pydantic import BaseModel
 from rag import recommend_job      # ⭐ RAG 추천 함수
 from agent import run_agent        # ⭐ Agent 함수
 
+
 app = FastAPI()
 
 # 🔓 CORS 설정 (프론트엔드가 접근 가능하도록)

@@ -71,7 +71,8 @@
 | `feature/backend-agent` | AI Agent/API | 손재형 |
 
 
-<img width="1036" height="801" alt="image" src="https://github.com/user-attachments/assets/aa9eea85-d072-4b34-949c-30172d96114b" />
+<img width="1065" height="827" alt="image" src="https://github.com/user-attachments/assets/2647191d-4039-4169-b49c-4470d4d8f4be" />
+
 
 
 ---

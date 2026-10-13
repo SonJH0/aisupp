@@ -79,7 +79,7 @@ def recommend_job(job_posting, career_summary):  # ⭐ 인자 2개로!
     # LLM 답변 텍스트 꺼내기
     content = response.json()["choices"][0]["message"]["content"]
 
-    # ⭐ 텍스트를 JSON(딕셔너리)으로 변환!
+    # ⭐ 텍스트를 JSON(딕셔너리)으로 변환!!!
     result = json.loads(content)
     return result
 

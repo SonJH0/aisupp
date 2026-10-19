@@ -59,6 +59,9 @@
 
 <img width="1322" height="924" alt="image" src="https://github.com/user-attachments/assets/d37533fa-23b9-4799-9edf-da445d0eb4c7" />
 
+
+
+
 - 정확한 기여도 분배의 %의 경우에는 한 자리에서 서로 번갈아 앉아가며 작업을 했고 그 과정에서 아이디를 하나로 사용하는 바람에 정확한 %를 작성할 수 없었습니다.
 
 

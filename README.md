@@ -57,20 +57,6 @@
 | **손재형** | Backend | AI Agent 개발 및 API 설계 |
 
 
----
-
-##  브랜치 전략
-
-본 프로젝트는 기능별 브랜치 전략(Git Flow)을 사용했습니다.
-
-| 브랜치 | 용도 | 담당 |
-|--------|------|------|
-| `main` | 배포용 안정 버전 | 공통 |
-| `feature/frontend` | 프론트엔드 개발 | 황준식 |
-| `feature/ai-rag` | RAG 파이프라인 | 손재윤 |
-| `feature/backend-agent` | AI Agent/API | 손재형 |
-
-
 <img width="1322" height="924" alt="image" src="https://github.com/user-attachments/assets/d37533fa-23b9-4799-9edf-da445d0eb4c7" />
 
 
